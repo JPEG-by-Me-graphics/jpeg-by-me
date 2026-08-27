@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="170.81178mm"
+   height="151.14066mm"
+   viewBox="0 0 170.81178 151.14066"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="develop.svg"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"><inkscape:page
+       x="0"
+       y="0"
+       width="170.81178"
+       height="151.14066"
+       id="page2"
+       margin="0"
+       bleed="0" /></sodipodi:namedview><defs
+     id="defs1" /><g
+     inkscape:label="Vrstva 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-12.029756,-64.518547)">
+    
+    
+<path
+   id="rect7"
+   style="opacity:0.9;fill:#6f918d;fill-opacity:1;stroke-width:0.274555"
+   d="m 22.59552,64.518542 c -5.853551,0 -10.565763,4.6319 -10.565763,10.38593 v 12.463839 c 0,0.171054 0.0042,0.341068 0.0124,0.510046 v 9.961666 h 0.02997 v 95.746097 l 0.561206,11.5073 c 0.292799,5.84622 4.712213,10.56577 10.565764,10.56577 H 172.27527 c 5.85356,0 10.56628,-4.71222 10.56628,-10.56577 V 192.4141 c -0.25238,-32.0881 -0.39684,-64.29202 -0.5612,-96.419443 h -0.03 V 74.801636 h -0.0129 c -0.0561,-5.705963 -4.74737,-10.283094 -10.56577,-10.283094 z m 1.81436,2.376083 h 145.54305 c 5.6805,0 10.26044,3.981911 10.31514,8.946224 h 0.0129 V 95.885103 H 14.106632 v -8.666654 c -0.008,-0.147014 -0.01188,-0.295079 -0.01188,-0.443901 V 75.930766 c 0,-5.006132 4.600313,-9.036141 10.315133,-9.036141 z m 34.091975,8.463049 V 86.768347 H 70.184347 V 75.357674 Z M 41.71425,75.400566 V 86.811239 H 53.396741 V 75.400566 Z M 24.976253,75.666182 V 87.076855 H 36.658228 V 75.666182 Z M 180.22931,97.840023 c -0.89342,34.537137 0.0419,69.111087 0.0419,103.653107 0,5.55284 -1.56478,11.19138 -7.22075,11.21172 l -149.187277,0.53691 c -5.655966,0.0203 -9.040334,-5.55795 -9.138977,-11.10991 L 14.517977,190.54341 V 97.965597 c 55.2371,-0.0922 110.474183,-0.125574 165.711333,-0.125574 z m -83.99229,6.189807 v 43.741 h 77.4299 v -43.741 z m -73.415674,0.0248 v 98.89216 h 66.282776 v -98.89216 z m 75.26569,1.70894 H 171.52493 V 145.6986 H 98.087036 Z m -73.718498,0.27699 h 62.857146 v 94.93425 H 24.368538 Z m 72.111878,50.79173 v 46.05042 H 173.6385 v -46.05042 z m 1.878955,1.78697 73.398099,0.0465 v 42.43203 l -73.445125,-0.0465 z" /></g></svg>
