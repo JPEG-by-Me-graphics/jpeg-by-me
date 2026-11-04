@@ -79,11 +79,9 @@ a {
     width: 100%;
     height: 10px;
 
-    background: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, .05),
-        transparent
-    );
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, .05),
+            transparent);
 
     filter: blur(6px);
 
@@ -172,8 +170,7 @@ a {
     width: 28px;
     height: 28px;
 
-    filter: invert(56%) sepia(13%) saturate(609%)
-        hue-rotate(126deg) brightness(91%) contrast(86%);
+    filter: invert(56%) sepia(13%) saturate(609%) hue-rotate(126deg) brightness(91%) contrast(86%);
 
     transition:
         opacity .25s ease,
@@ -242,13 +239,11 @@ a {
     overflow: hidden;
 
     background:
-        linear-gradient(
-            90deg,
+        linear-gradient(90deg,
             rgba(247, 240, 232, .98) 0%,
             rgba(247, 240, 232, .94) 28%,
             rgba(247, 240, 232, .58) 48%,
-            rgba(247, 240, 232, .12) 75%
-        ),
+            rgba(247, 240, 232, .12) 75%),
         url("assets/hero.webp") 62% center / cover no-repeat;
 }
 
@@ -353,10 +348,8 @@ a {
 
 .btn-pattern {
     background:
-        linear-gradient(
-            rgba(111, 145, 141, .88),
-            rgba(111, 145, 141, .88)
-        ),
+        linear-gradient(rgba(111, 145, 141, .88),
+            rgba(111, 145, 141, .88)),
         url("assets/duck-egg-pattern.png") center / cover;
 }
 
@@ -381,11 +374,9 @@ a {
     padding: 170px 7vw 100px;
 
     background:
-        linear-gradient(
-            180deg,
+        linear-gradient(180deg,
             rgba(247, 240, 232, .94),
-            rgba(247, 240, 232, .86)
-        ),
+            rgba(247, 240, 232, .86)),
         url("assets/hero-subpage.webp") center center / cover no-repeat;
 }
 
@@ -496,8 +487,7 @@ a {
 
     flex-shrink: 0;
 
-    filter: invert(56%) sepia(13%) saturate(609%)
-        hue-rotate(126deg) brightness(91%) contrast(86%);
+    filter: invert(56%) sepia(13%) saturate(609%) hue-rotate(126deg) brightness(91%) contrast(86%);
 }
 
 .contact-item a {
@@ -560,14 +550,12 @@ a {
     width: 100%;
     height: 3px;
 
-    background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(45, 45, 45, .25),
-        rgba(45, 45, 45, .62),
-        rgba(45, 45, 45, .25),
-        transparent
-    );
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(45, 45, 45, .25),
+            rgba(45, 45, 45, .62),
+            rgba(45, 45, 45, .25),
+            transparent);
 }
 
 
@@ -588,13 +576,11 @@ a {
     overflow: hidden;
 
     background:
-        linear-gradient(
-            90deg,
+        linear-gradient(90deg,
             rgba(247, 240, 232, .98) 0%,
             rgba(247, 240, 232, .94) 35%,
             rgba(247, 240, 232, .78) 60%,
-            rgba(247, 240, 232, .58) 100%
-        ),
+            rgba(247, 240, 232, .58) 100%),
         url("assets/hero-subpage.webp") center center / cover no-repeat;
 }
 
@@ -728,7 +714,7 @@ a {
     background: var(--cream);
 }
 
-.services-page > .section-heading {
+.services-page>.section-heading {
     padding: 90px 7vw 55px;
 
     margin-bottom: 0;
@@ -822,7 +808,7 @@ a {
     line-height: 1.05;
 }
 
-.service-detail-text > p:not(.service-number) {
+.service-detail-text>p:not(.service-number) {
     max-width: 620px;
 
     margin-bottom: 16px;
@@ -949,7 +935,7 @@ a {
     margin-bottom: 60px;
 }
 
-.portfolio-section-heading > div {
+.portfolio-section-heading>div {
     flex-shrink: 0;
 }
 
@@ -973,7 +959,7 @@ a {
     line-height: 1.05;
 }
 
-.portfolio-section-heading > p {
+.portfolio-section-heading>p {
     max-width: 560px;
 
     color: var(--muted);
@@ -996,15 +982,12 @@ a {
 
 .portfolio-grid-large {
     grid-template-columns:
-        minmax(0, 1.4fr)
-        minmax(0, 1fr)
-        minmax(0, 1fr);
+        minmax(0, 1.4fr) minmax(0, 1fr) minmax(0, 1fr);
 }
 
 .portfolio-grid-patterns {
     grid-template-columns:
-        minmax(0, 1.4fr)
-        minmax(0, 1fr);
+        minmax(0, 1.4fr) minmax(0, 1fr);
 }
 
 .portfolio-grid-print {
@@ -1050,11 +1033,8 @@ a {
     aspect-ratio: 4 / 3;
 }
 
-.portfolio-item-featured .portfolio-image {
-    height: 100%;
-
-    min-height: 520px;
-
+.portfolio-item-featured .portfolio-image {    
+    height: 520px;
     aspect-ratio: auto;
 }
 
@@ -1069,6 +1049,11 @@ a {
     object-fit: cover;
 
     transition: transform .45s ease;
+}
+
+.portfolio-grid-print .portfolio-image img {
+    object-fit: contain;
+    object-position: center;
 }
 
 .portfolio-item:hover .portfolio-image img {
@@ -1178,7 +1163,7 @@ a {
     gap: 60px;
 }
 
-.motto > div {
+.motto>div {
     min-width: 0;
 }
 
@@ -1300,13 +1285,11 @@ a {
 
     .hero {
         background:
-            linear-gradient(
-                90deg,
+            linear-gradient(90deg,
                 rgba(247, 240, 232, .98) 0%,
                 rgba(247, 240, 232, .94) 34%,
                 rgba(247, 240, 232, .55) 62%,
-                rgba(247, 240, 232, .18) 100%
-            ),
+                rgba(247, 240, 232, .18) 100%),
             url("assets/hero.webp") 68% center / cover no-repeat;
     }
 
@@ -1330,7 +1313,7 @@ a {
         padding: 0;
     }
 
-    .services-page > .section-heading {
+    .services-page>.section-heading {
         padding: 80px 5vw 50px;
     }
 
@@ -1357,7 +1340,7 @@ a {
         max-width: 640px;
     }
 
-    .service-detail-text > p:not(.service-number) {
+    .service-detail-text>p:not(.service-number) {
         font-size: 16px;
     }
 
@@ -1376,7 +1359,7 @@ a {
         margin-bottom: 50px;
     }
 
-    .portfolio-section-heading > p {
+    .portfolio-section-heading>p {
         max-width: 500px;
 
         font-size: 16px;
@@ -1388,9 +1371,7 @@ a {
 
     .portfolio-grid-large {
         grid-template-columns:
-            minmax(0, 1.2fr)
-            minmax(0, 1fr)
-            minmax(0, 1fr);
+            minmax(0, 1.2fr) minmax(0, 1fr) minmax(0, 1fr);
     }
 
     .portfolio-item-featured .portfolio-image {
@@ -1541,13 +1522,11 @@ a {
         padding: 120px 24px 70px;
 
         background:
-            linear-gradient(
-                90deg,
+            linear-gradient(90deg,
                 rgba(247, 240, 232, .98) 0%,
                 rgba(247, 240, 232, .94) 50%,
                 rgba(247, 240, 232, .55) 82%,
-                rgba(247, 240, 232, .25) 100%
-            ),
+                rgba(247, 240, 232, .25) 100%),
             url("assets/hero.webp") 72% center / cover no-repeat;
     }
 
@@ -1639,7 +1618,7 @@ a {
         padding: 0;
     }
 
-    .services-page > .section-heading {
+    .services-page>.section-heading {
         padding: 70px 24px 45px;
     }
 
@@ -1677,7 +1656,7 @@ a {
         font-size: clamp(32px, 5vw, 44px);
     }
 
-    .service-detail-text > p:not(.service-number) {
+    .service-detail-text>p:not(.service-number) {
         max-width: 600px;
 
         font-size: 16px;
@@ -1715,7 +1694,7 @@ a {
         margin-bottom: 44px;
     }
 
-    .portfolio-section-heading > p {
+    .portfolio-section-heading>p {
         max-width: 620px;
     }
 
@@ -1798,10 +1777,8 @@ a {
         letter-spacing: .08em;
 
         background:
-            linear-gradient(
-                rgba(111, 145, 141, .9),
-                rgba(111, 145, 141, .9)
-            ),
+            linear-gradient(rgba(111, 145, 141, .9),
+                rgba(111, 145, 141, .9)),
             url("assets/duck-egg-pattern.png") center / cover;
 
         box-shadow: var(--shadow);
@@ -1888,13 +1865,11 @@ a {
         padding: 105px 20px 70px;
 
         background:
-            linear-gradient(
-                90deg,
+            linear-gradient(90deg,
                 rgba(247, 240, 232, .98) 0%,
                 rgba(247, 240, 232, .94) 55%,
                 rgba(247, 240, 232, .62) 82%,
-                rgba(247, 240, 232, .35) 100%
-            ),
+                rgba(247, 240, 232, .35) 100%),
             url("assets/hero.webp") 70% center / cover no-repeat;
     }
 
@@ -1999,7 +1974,7 @@ a {
         padding: 0;
     }
 
-    .services-page > .section-heading {
+    .services-page>.section-heading {
         padding: 60px 24px 40px;
     }
 
@@ -2032,7 +2007,7 @@ a {
         font-size: 32px;
     }
 
-    .service-detail-text > p:not(.service-number) {
+    .service-detail-text>p:not(.service-number) {
         font-size: 15px;
 
         line-height: 1.75;
@@ -2080,7 +2055,7 @@ a {
         font-size: 34px;
     }
 
-    .portfolio-section-heading > p {
+    .portfolio-section-heading>p {
         font-size: 15px;
 
         line-height: 1.75;
